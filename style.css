@@ -1,0 +1,31 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+body{
+    background-color: #474848;
+    margin: 0;
+    padding: 0
+}
+#container{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+.time-container {
+    background-color: white;
+    border-radius: 100%;
+    height: 180px;
+    width: 180px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 2.5em;
+    border: 6px solid black
+}
+#time{
+    padding: 15px;
+}
